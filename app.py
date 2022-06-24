@@ -8,7 +8,7 @@ from fastai.vision.widgets import *
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
-learn_inf = load_learner('model.pkl')
+learn_inf = load_learner('model1.pkl')
 
 class Predict:
     def __init__(self, filename):
