@@ -7,6 +7,8 @@ from fastai.vision.widgets import *
 
 learn_inf = load_learner('model1.pkl')
 
+st.write("This app can recognize tiger or cat")
+
 class Predict:
     def __init__(self, filename):
         self.learn_inference = load_learner(Path()/filename)
